@@ -61,8 +61,6 @@ endif()
 set(MINIZIP_PC ${CMAKE_CURRENT_BINARY_DIR}/minizip.pc)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/minizip.pc.cmakein ${MINIZIP_PC} @ONLY)
 
-set(PROJECT_NAME libminizip)
-
 set(MINIZIP_SRC
     mz_os.c
     mz_compat.c
